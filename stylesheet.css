@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header{
+  background-color: gray;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  text-align: right;
+  padding-bottom: 10px
+}
+
+.menu{
+  color: white;
+  font-size: 14px;
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 40px;
+  padding-right: 20px;
+}
+
+.logo p{
+  float: left;
+  text-align: left;
+  font-family: 'Homemade Apple', cursive;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.title {
+  color: white;
+  opacity: 0.7;
+  font-size: 50px;
+  font-family: 'Homemade Apple', cursive;
+  text-align: center;
+}
+
+.top p{
+  color: white;
+  opacity: 0.7;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.top{
+  padding: 150px 0 150px 0;
+  background-image: url(https://www.pakutaso.com/shared/img/thumb/Yamasha181026088_TP_V.jpg);
+  background-size: cover;
+}
+
+.concept{
+  padding: 50px 30px;
+}
+
+.concept h2{
+  font-size: 30px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.concept h3{
+  font-size: 15px;
+}
+
+.concept p{
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.contents{
+  width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.content img{
+  height: 300px;
+  width: 80%;
+}
+
+.icon p{
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  color: white;
+  opacity: 0.7;
+  font-size: 30px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.abst{
+  display:inline-block;
+  font-size: 12px;
+  color: gray;
+  width: 80%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.content{
+  float:left;
+  width: 25%;
+  padding: 50px 15px;
+}
+
+.icon{
+  position:relative;
+}
+
+.contents-wrapper{
+  height: 500px;
+  background-color: #eee;
+  text-align: center;
+}
+
+.latest{
+  height: 500px;
+  padding: 50px 0;
+}
+
+.latest h2{
+  font-size: 30px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.latest h3{
+  font-size: 15px;
+}
+
+.latest a{
+  display:inline-block;
+  float: left;
+  padding: 100px 100px;
+  width: 25%;
+  background-color: #d3d3d3;
+  color: gray;
+  font-size: 20px;
+}
+
+.footer{
+  background-color: gray;
+  color: white;
+}
+
+.subscribe{
+  padding-top: 20px;
+}
+
+.subscribe p{
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.subscribe li{
+  list-style: none;
+}
+
+.copyright{
+  text-align: center;
+  padding: 20px 0;
+}
